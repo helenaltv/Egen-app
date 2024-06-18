@@ -28,7 +28,12 @@ export default function AppNavigator() {
         <Stack.Screen
           name="Web"
           component={WebScreen}
-          options={{ title: "FLYG INFO" }}
+          options={{
+            title: "FLYG INFO",
+            headerStyle: {
+              backgroundColor: "#9FDEE8",
+            },
+          }}
         />
         <Stack.Screen
           name="AnotherScreen"
